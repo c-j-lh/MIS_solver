@@ -1,0 +1,31 @@
+Diversity loss, for each of M GNN models, compare to closest solution (how to with MCTS/RL though)
+Then BFS, with queue f incomplete solutions
+
+Add local search (manual optimisation) and graph reduction
+Max clique and MVC directly (cos complementary graphs too dense)
+
+Reading list:
+Reinf Learning
+MCTS
+GNNS
+Satisfiability & other NP-hard problems
+Coursera with pytorch
+
+Practice:
+implement:
+- minimax
+- MCTS
+- GNNs (from scratch)
+- MCTS with GNNs
+
+idk; improvements:
+non-random random_sampling/simulation: what rules for MIS though?
+different UCB function (e.g. Upper Confidence Bound 1: Q/N + c*sqrt(ln(N(a'))/N(a))?, and different weightings through different epochs?)
+--      What other functions are there, though?
+(what is alpha-beta pruning?)
+
+
+# NEW (post-meeting)
+Confusion: is multithreading slowing down my use_models so much, to 17s/iter and 100 iter being the limiting factor instead of time # maybe try at home?
+Where have my output files gone? Probably not a server bug though # did I rm model/p200_0.pth AND log/p200_0.pickle? Seems unlikely... so I can only assume... ??
+

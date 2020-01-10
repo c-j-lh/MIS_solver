@@ -1,0 +1,25 @@
+file name random/1000_2500_0 final max=430
+random/1000_2500_0 421
+random/1000_2500_1 416
+random/1000_2500_2 427
+random/1000_2500_3 428
+random/1000_2500_4 416
+random/1000_2500_5 407
+random/1000_2500_6 411
+random/1000_2500_7 419
+random/1000_2500_8 427
+random/1000_2500_9 425
+random/1000_2500_0 430
+random/1000_2500_1 433
+random/1000_2500_2 433
+random/1000_2500_0 421
+random/1000_2500_3 434
+random/1000_2500_1 416
+random/1000_2500_4 432
+random/1000_2500_5 414
+random/1000_2500_6 420
+random/1000_2500_7 422
++++++++++++++++++++++++++++++++++++++++
+random/1000_2500_0 428 gnn_idxs=range(0 4, time: 3s)
+random/1000_2500_1 422 gnn_idxs=range(0 4, time: 3s)
+random/1000_2500_2 433 gnn_idxs=range(0 4, time: 3s)

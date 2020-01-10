@@ -1,0 +1,720 @@
+
+data/random/200_500_0 53 epoch=0 1=new_time
+	time=9.171 iter_num=1 53
+
+data/random/200_2000_0 28 epoch=0 1=new_time
+	time=21.993 iter_num=1 28
+
+data/random/400_1000_0 110 epoch=0 1=new_time
+	time=94.204 iter_num=1 110
+
+data/random/400_4000_0 54 epoch=0 1=new_time
+	time=68.559 iter_num=1 54
+
+data/random/800_2000_0 215 epoch=0 1=new_time
+	time=292.391 iter_num=1 215
+
+data/random/800_8000_0 117 epoch=0 1=new_time
+	time=208.484 iter_num=1 117
+
+data/random/200_500_0 51 epoch=1 1=new_time
+	time=25.008 iter_num=1 51
+
+data/random/200_2000_0 24 epoch=1 1=new_time
+	time=17.365 iter_num=1 24
+
+data/random/400_1000_0 106 epoch=1 1=new_time
+	time=79.012 iter_num=1 106
+
+data/random/400_4000_0 51 epoch=1 1=new_time
+	time=47.987 iter_num=1 51
+
+data/random/800_2000_0 225 epoch=1 1=new_time
+	time=156.715 iter_num=1 225
+
+data/random/800_8000_0 107 epoch=1 1=new_time
+	time=130.934 iter_num=1 107
+
+data/random/200_500_0 58 epoch=2 1=new_time
+	time=31.107 iter_num=1 58
+
+data/random/200_2000_0 28 epoch=2 1=new_time
+	time=18.328 iter_num=1 28
+
+data/random/400_1000_0 112 epoch=2 1=new_time
+	time=82.658 iter_num=1 112
+
+data/random/400_4000_0 57 epoch=2 1=new_time
+	time=48.132 iter_num=1 57
+
+data/random/800_2000_0 225 epoch=2 1=new_time
+	time=118.595 iter_num=1 225
+
+data/random/800_8000_0 120 epoch=2 1=new_time
+	time=183.226 iter_num=1 120
+
+data/random/200_500_0 57 epoch=3 1=new_time
+	time=28.134 iter_num=1 57
+
+data/random/200_2000_0 22 epoch=3 1=new_time
+	time=12.046 iter_num=1 22
+
+data/random/400_1000_0 115 epoch=3 1=new_time
+	time=69.510 iter_num=1 115
+
+data/random/400_4000_0 42 epoch=3 1=new_time
+	time=29.889 iter_num=1 42
+
+data/random/800_2000_0 229 epoch=3 1=new_time
+	time=275.791 iter_num=1 229
+
+data/random/800_8000_0 89 epoch=3 1=new_time
+	time=99.751 iter_num=1 89
+
+data/random/200_500_0 52 epoch=4 1=new_time
+	time=31.619 iter_num=1 52
+
+data/random/200_2000_0 31 epoch=4 1=new_time
+	time=21.241 iter_num=1 31
+
+data/random/400_1000_0 113 epoch=4 1=new_time
+	time=87.879 iter_num=1 113
+
+data/random/400_4000_0 65 epoch=4 1=new_time
+	time=66.324 iter_num=1 65
+
+data/random/800_2000_0 221 epoch=4 1=new_time
+	time=265.866 iter_num=1 221
+
+data/random/800_8000_0 135 epoch=4 1=new_time
+	time=248.500 iter_num=1 135
+
+data/random/200_500_0 70 epoch=5 1=new_time
+	time=56.810 iter_num=1 70
+
+data/random/200_2000_0 31 epoch=5 1=new_time
+	time=21.559 iter_num=1 31
+
+data/random/400_1000_0 129 epoch=5 1=new_time
+	time=163.352 iter_num=1 129
+
+data/random/400_4000_0 66 epoch=5 1=new_time
+	time=67.125 iter_num=1 66
+
+data/random/800_2000_0 271 epoch=5 1=new_time
+	time=550.986 iter_num=1 271
+
+data/random/800_8000_0 137 epoch=5 1=new_time
+	time=236.291 iter_num=1 137
+
+data/random/200_500_0 53 epoch=6 1=new_time
+	time=36.216 iter_num=1 53
+
+data/random/200_2000_0 30 epoch=6 1=new_time
+	time=19.939 iter_num=1 30
+
+data/random/400_1000_0 110 epoch=6 1=new_time
+	time=98.154 iter_num=1 110
+
+data/random/400_4000_0 63 epoch=6 1=new_time
+	time=65.875 iter_num=1 63
+
+data/random/800_2000_0 217 epoch=6 1=new_time
+	time=300.621 iter_num=1 217
+
+data/random/800_8000_0 132 epoch=6 1=new_time
+	time=203.684 iter_num=1 132
+
+data/random/200_500_0 64 epoch=7 1=new_time
+	time=15.726 iter_num=1 64
+
+data/random/200_2000_0 32 epoch=7 1=new_time
+	time=16.611 iter_num=1 32
+
+data/random/400_1000_0 133 epoch=7 1=new_time
+	time=100.809 iter_num=1 133
+
+data/random/400_4000_0 64 epoch=7 1=new_time
+	time=64.204 iter_num=1 64
+
+data/random/800_2000_0 261 epoch=7 1=new_time
+	time=255.441 iter_num=1 261
+
+data/random/800_8000_0 129 epoch=7 1=new_time
+	time=158.156 iter_num=1 129
+
+data/random/200_500_0 78 epoch=8 1=new_time
+	time=40.807 iter_num=1 78
+
+data/random/200_2000_0 34 epoch=8 1=new_time
+	time=22.630 iter_num=1 34
+
+data/random/400_1000_0 153 epoch=8 1=new_time
+	time=141.190 iter_num=1 153
+
+data/random/400_4000_0 75 epoch=8 1=new_time
+	time=64.054 iter_num=1 75
+
+data/random/800_2000_0 308 epoch=8 1=new_time
+	time=332.794 iter_num=1 308
+
+data/random/800_8000_0 152 epoch=8 1=new_time
+	time=205.109 iter_num=1 152
+
+data/random/200_500_0 84 epoch=9 1=new_time
+	time=56.815 iter_num=1 84
+
+data/random/200_2000_0 35 epoch=9 1=new_time
+	time=20.458 iter_num=1 35
+
+data/random/400_1000_0 162 epoch=9 1=new_time
+	time=144.539 iter_num=1 162
+
+data/random/400_4000_0 74 epoch=9 1=new_time
+	time=44.930 iter_num=1 74
+
+data/random/800_2000_0 335 epoch=9 1=new_time
+	time=488.869 iter_num=1 335
+
+data/random/800_8000_0 154 epoch=9 1=new_time
+	time=187.292 iter_num=1 154
+
+data/random/200_500_0 86 epoch=10 1=new_time
+	time=65.028 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=10 1=new_time
+	time=19.503 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=10 1=new_time
+	time=177.500 iter_num=1 165
+
+data/random/400_4000_0 71 epoch=10 1=new_time
+	time=68.182 iter_num=1 71
+
+data/random/800_2000_0 334 epoch=10 1=new_time
+	time=488.692 iter_num=1 334
+
+data/random/800_8000_0 152 epoch=10 1=new_time
+	time=232.642 iter_num=1 152
+
+data/random/200_500_0 86 epoch=11 1=new_time
+	time=54.818 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=11 1=new_time
+	time=17.591 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=11 1=new_time
+	time=177.857 iter_num=1 165
+
+data/random/400_4000_0 71 epoch=11 1=new_time
+	time=66.092 iter_num=1 71
+
+data/random/800_2000_0 331 epoch=11 1=new_time
+	time=581.181 iter_num=1 331
+
+data/random/800_8000_0 151 epoch=11 1=new_time
+	time=181.959 iter_num=1 151
+
+data/random/200_500_0 86 epoch=12 1=new_time
+	time=59.051 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=12 1=new_time
+	time=11.452 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=12 1=new_time
+	time=149.532 iter_num=1 165
+
+data/random/400_4000_0 71 epoch=12 1=new_time
+	time=31.667 iter_num=1 71
+
+data/random/800_2000_0 336 epoch=12 1=new_time
+	time=359.916 iter_num=1 336
+
+data/random/800_8000_0 152 epoch=12 1=new_time
+	time=167.965 iter_num=1 152
+
+data/random/200_500_0 86 epoch=13 1=new_time
+	time=56.023 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=13 1=new_time
+	time=14.643 iter_num=1 35
+
+data/random/400_1000_0 163 epoch=13 1=new_time
+	time=153.502 iter_num=1 163
+
+data/random/400_4000_0 71 epoch=13 1=new_time
+	time=44.873 iter_num=1 71
+
+data/random/800_2000_0 338 epoch=13 1=new_time
+	time=369.396 iter_num=1 338
+
+data/random/800_8000_0 153 epoch=13 1=new_time
+	time=164.614 iter_num=1 153
+
+data/random/200_500_0 86 epoch=14 1=new_time
+	time=63.457 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=14 1=new_time
+	time=21.304 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=14 1=new_time
+	time=99.182 iter_num=1 165
+
+data/random/400_4000_0 71 epoch=14 1=new_time
+	time=37.483 iter_num=1 71
+
+data/random/800_2000_0 338 epoch=14 1=new_time
+	time=403.074 iter_num=1 338
+
+data/random/800_8000_0 151 epoch=14 1=new_time
+	time=103.089 iter_num=1 151
+
+data/random/200_500_0 86 epoch=15 1=new_time
+	time=28.131 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=15 1=new_time
+	time=10.650 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=15 1=new_time
+	time=69.002 iter_num=1 165
+
+data/random/400_4000_0 71 epoch=15 1=new_time
+	time=46.632 iter_num=1 71
+
+data/random/800_2000_0 332 epoch=15 1=new_time
+	time=163.943 iter_num=1 332
+
+data/random/800_8000_0 153 epoch=15 1=new_time
+	time=91.135 iter_num=1 153
+
+data/random/200_500_0 86 epoch=16 1=new_time
+	time=33.176 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=16 1=new_time
+	time=11.708 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=16 1=new_time
+	time=75.265 iter_num=1 165
+
+data/random/400_4000_0 72 epoch=16 1=new_time
+	time=36.966 iter_num=1 72
+
+data/random/800_2000_0 334 epoch=16 1=new_time
+	time=210.462 iter_num=1 334
+
+data/random/800_8000_0 149 epoch=16 1=new_time
+	time=79.346 iter_num=1 149
+
+data/random/200_500_0 86 epoch=17 1=new_time
+	time=21.552 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=17 1=new_time
+	time=8.235 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=17 1=new_time
+	time=124.290 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=17 1=new_time
+	time=38.381 iter_num=1 73
+
+data/random/800_2000_0 335 epoch=17 1=new_time
+	time=144.852 iter_num=1 335
+
+data/random/800_8000_0 152 epoch=17 1=new_time
+	time=71.296 iter_num=1 152
+
+data/random/200_500_0 84 epoch=18 1=new_time
+	time=19.050 iter_num=1 84
+
+data/random/200_2000_0 35 epoch=18 1=new_time
+	time=9.166 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=18 1=new_time
+	time=49.117 iter_num=1 165
+
+data/random/400_4000_0 70 epoch=18 1=new_time
+	time=20.593 iter_num=1 70
+
+data/random/800_2000_0 332 epoch=18 1=new_time
+	time=130.527 iter_num=1 332
+
+data/random/800_8000_0 152 epoch=18 1=new_time
+	time=65.690 iter_num=1 152
+
+data/random/200_500_0 86 epoch=19 1=new_time
+	time=24.395 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=19 1=new_time
+	time=10.000 iter_num=1 35
+
+data/random/400_1000_0 163 epoch=19 1=new_time
+	time=43.918 iter_num=1 163
+
+data/random/400_4000_0 70 epoch=19 1=new_time
+	time=20.650 iter_num=1 70
+
+data/random/800_2000_0 333 epoch=19 1=new_time
+	time=98.545 iter_num=1 333
+
+data/random/800_8000_0 152 epoch=19 1=new_time
+	time=61.932 iter_num=1 152
+
+data/random/200_500_0 86 epoch=20 1=new_time
+	time=18.218 iter_num=1 86
+
+data/random/200_2000_0 34 epoch=20 1=new_time
+	time=8.436 iter_num=1 34
+
+data/random/400_1000_0 165 epoch=20 1=new_time
+	time=59.255 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=20 1=new_time
+	time=29.327 iter_num=1 73
+
+data/random/800_2000_0 341 epoch=20 1=new_time
+	time=160.637 iter_num=1 341
+
+data/random/800_8000_0 155 epoch=20 1=new_time
+	time=61.702 iter_num=1 155
+
+data/random/200_500_0 86 epoch=21 1=new_time
+	time=25.865 iter_num=1 86
+
+data/random/200_2000_0 34 epoch=21 1=new_time
+	time=7.455 iter_num=1 34
+
+data/random/400_1000_0 165 epoch=21 1=new_time
+	time=52.125 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=21 1=new_time
+	time=25.253 iter_num=1 73
+
+data/random/800_2000_0 340 epoch=21 1=new_time
+	time=153.898 iter_num=1 340
+
+data/random/800_8000_0 155 epoch=21 1=new_time
+	time=70.834 iter_num=1 155
+
+data/random/200_500_0 86 epoch=22 1=new_time
+	time=26.964 iter_num=1 86
+
+data/random/200_2000_0 34 epoch=22 1=new_time
+	time=9.587 iter_num=1 34
+
+data/random/400_1000_0 165 epoch=22 1=new_time
+	time=65.536 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=22 1=new_time
+	time=20.812 iter_num=1 73
+
+data/random/800_2000_0 337 epoch=22 1=new_time
+	time=139.499 iter_num=1 337
+
+data/random/800_8000_0 150 epoch=22 1=new_time
+	time=64.850 iter_num=1 150
+
+data/random/200_500_0 86 epoch=23 1=new_time
+	time=22.217 iter_num=1 86
+
+data/random/200_2000_0 34 epoch=23 1=new_time
+	time=10.225 iter_num=1 34
+
+data/random/400_1000_0 165 epoch=23 1=new_time
+	time=55.410 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=23 1=new_time
+	time=21.590 iter_num=1 73
+
+data/random/800_2000_0 336 epoch=23 1=new_time
+	time=129.955 iter_num=1 336
+
+data/random/800_8000_0 150 epoch=23 1=new_time
+	time=69.920 iter_num=1 150
+
+data/random/200_500_0 86 epoch=24 1=new_time
+	time=25.122 iter_num=1 86
+
+data/random/200_2000_0 34 epoch=24 1=new_time
+	time=7.906 iter_num=1 34
+
+data/random/400_1000_0 165 epoch=24 1=new_time
+	time=55.376 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=24 1=new_time
+	time=20.490 iter_num=1 73
+
+data/random/800_2000_0 336 epoch=24 1=new_time
+	time=138.542 iter_num=1 336
+
+data/random/800_8000_0 150 epoch=24 1=new_time
+	time=61.505 iter_num=1 150
+
+data/random/200_500_0 86 epoch=25 1=new_time
+	time=22.704 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=25 1=new_time
+	time=9.980 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=25 1=new_time
+	time=65.190 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=25 1=new_time
+	time=22.996 iter_num=1 73
+
+data/random/800_2000_0 337 epoch=25 1=new_time
+	time=134.375 iter_num=1 337
+
+data/random/800_8000_0 154 epoch=25 1=new_time
+	time=65.433 iter_num=1 154
+
+data/random/200_500_0 86 epoch=26 1=new_time
+	time=17.400 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=26 1=new_time
+	time=8.673 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=26 1=new_time
+	time=59.877 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=26 1=new_time
+	time=27.544 iter_num=1 73
+
+data/random/800_2000_0 337 epoch=26 1=new_time
+	time=142.497 iter_num=1 337
+
+data/random/800_8000_0 151 epoch=26 1=new_time
+	time=62.047 iter_num=1 151
+
+data/random/200_500_0 86 epoch=27 1=new_time
+	time=26.002 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=27 1=new_time
+	time=7.504 iter_num=1 35
+
+data/random/400_1000_0 164 epoch=27 1=new_time
+	time=48.482 iter_num=1 164
+
+data/random/400_4000_0 73 epoch=27 1=new_time
+	time=24.321 iter_num=1 73
+
+data/random/800_2000_0 340 epoch=27 1=new_time
+	time=138.518 iter_num=1 340
+
+data/random/800_8000_0 150 epoch=27 1=new_time
+	time=65.509 iter_num=1 150
+
+data/random/200_500_0 86 epoch=28 1=new_time
+	time=22.567 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=28 1=new_time
+	time=11.226 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=28 1=new_time
+	time=55.355 iter_num=1 165
+
+data/random/400_4000_0 74 epoch=28 1=new_time
+	time=20.830 iter_num=1 74
+
+data/random/800_2000_0 335 epoch=28 1=new_time
+	time=147.360 iter_num=1 335
+
+data/random/800_8000_0 149 epoch=28 1=new_time
+	time=61.566 iter_num=1 149
+
+data/random/200_500_0 86 epoch=29 1=new_time
+	time=25.959 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=29 1=new_time
+	time=10.312 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=29 1=new_time
+	time=47.528 iter_num=1 165
+
+data/random/400_4000_0 72 epoch=29 1=new_time
+	time=29.198 iter_num=1 72
+
+data/random/800_2000_0 335 epoch=29 1=new_time
+	time=138.124 iter_num=1 335
+
+data/random/800_8000_0 151 epoch=29 1=new_time
+	time=79.370 iter_num=1 151
+
+data/random/200_500_0 86 epoch=30 1=new_time
+	time=21.153 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=30 1=new_time
+	time=8.995 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=30 1=new_time
+	time=50.984 iter_num=1 165
+
+data/random/400_4000_0 74 epoch=30 1=new_time
+	time=19.009 iter_num=1 74
+
+data/random/800_2000_0 334 epoch=30 1=new_time
+	time=143.658 iter_num=1 334
+
+data/random/800_8000_0 149 epoch=30 1=new_time
+	time=68.157 iter_num=1 149
+
+data/random/200_500_0 86 epoch=31 1=new_time
+	time=24.871 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=31 1=new_time
+	time=10.462 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=31 1=new_time
+	time=52.784 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=31 1=new_time
+	time=27.353 iter_num=1 73
+
+data/random/800_2000_0 336 epoch=31 1=new_time
+	time=141.122 iter_num=1 336
+
+data/random/800_8000_0 148 epoch=31 1=new_time
+	time=67.473 iter_num=1 148
+
+data/random/200_500_0 86 epoch=32 1=new_time
+	time=21.828 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=32 1=new_time
+	time=9.264 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=32 1=new_time
+	time=65.404 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=32 1=new_time
+	time=21.732 iter_num=1 73
+
+data/random/800_2000_0 336 epoch=32 1=new_time
+	time=138.986 iter_num=1 336
+
+data/random/800_8000_0 154 epoch=32 1=new_time
+	time=76.989 iter_num=1 154
+
+data/random/200_500_0 86 epoch=33 1=new_time
+	time=17.441 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=33 1=new_time
+	time=8.588 iter_num=1 35
+
+data/random/400_1000_0 165 epoch=33 1=new_time
+	time=57.789 iter_num=1 165
+
+data/random/400_4000_0 73 epoch=33 1=new_time
+	time=24.805 iter_num=1 73
+
+data/random/800_2000_0 334 epoch=33 1=new_time
+	time=139.510 iter_num=1 334
+
+data/random/800_8000_0 155 epoch=33 1=new_time
+	time=80.551 iter_num=1 155
+
+data/random/200_500_0 86 epoch=34 1=new_time
+	time=24.864 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=34 1=new_time
+	time=9.639 iter_num=1 35
+
+data/random/400_1000_0 164 epoch=34 1=new_time
+	time=48.206 iter_num=1 164
+
+data/random/400_4000_0 74 epoch=34 1=new_time
+	time=20.343 iter_num=1 74
+
+data/random/800_2000_0 339 epoch=34 1=new_time
+	time=216.860 iter_num=1 339
+
+data/random/800_8000_0 149 epoch=34 1=new_time
+	time=63.070 iter_num=1 149
+
+data/random/200_500_0 86 epoch=35 1=new_time
+	time=24.288 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=35 1=new_time
+	time=10.525 iter_num=1 35
+
+data/random/400_1000_0 164 epoch=35 1=new_time
+	time=51.122 iter_num=1 164
+
+data/random/400_4000_0 72 epoch=35 1=new_time
+	time=27.966 iter_num=1 72
+
+data/random/800_2000_0 332 epoch=35 1=new_time
+	time=132.471 iter_num=1 332
+
+data/random/800_8000_0 149 epoch=35 1=new_time
+	time=85.091 iter_num=1 149
+
+data/random/200_500_0 86 epoch=36 1=new_time
+	time=21.159 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=36 1=new_time
+	time=9.663 iter_num=1 35
+
+data/random/400_1000_0 162 epoch=36 1=new_time
+	time=48.911 iter_num=1 162
+
+data/random/400_4000_0 74 epoch=36 1=new_time
+	time=21.458 iter_num=1 74
+
+data/random/800_2000_0 334 epoch=36 1=new_time
+	time=141.875 iter_num=1 334
+
+data/random/800_8000_0 148 epoch=36 1=new_time
+	time=94.107 iter_num=1 148
+
+data/random/200_500_0 86 epoch=37 1=new_time
+	time=24.752 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=37 1=new_time
+	time=10.043 iter_num=1 35
+
+data/random/400_1000_0 162 epoch=37 1=new_time
+	time=47.366 iter_num=1 162
+
+data/random/400_4000_0 74 epoch=37 1=new_time
+	time=25.683 iter_num=1 74
+
+data/random/800_2000_0 336 epoch=37 1=new_time
+	time=128.241 iter_num=1 336
+
+data/random/800_8000_0 149 epoch=37 1=new_time
+	time=62.697 iter_num=1 149
+
+data/random/200_500_0 86 epoch=38 1=new_time
+	time=22.311 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=38 1=new_time
+	time=8.448 iter_num=1 35
+
+data/random/400_1000_0 162 epoch=38 1=new_time
+	time=87.394 iter_num=1 162
+
+data/random/400_4000_0 74 epoch=38 1=new_time
+	time=29.018 iter_num=1 74
+
+data/random/800_2000_0 334 epoch=38 1=new_time
+	time=138.967 iter_num=1 334
+
+data/random/800_8000_0 149 epoch=38 1=new_time
+	time=66.361 iter_num=1 149
+
+data/random/200_500_0 86 epoch=39 1=new_time
+	time=18.533 iter_num=1 86
+
+data/random/200_2000_0 35 epoch=39 1=new_time
+	time=9.349 iter_num=1 35
+
+data/random/400_1000_0 164 epoch=39 1=new_time
+	time=52.536 iter_num=1 164
+
+data/random/400_4000_0 71 epoch=39 1=new_time
+	time=22.525 iter_num=1 71
+
+data/random/800_2000_0 332 epoch=39 1=new_time
+	time=134.669 iter_num=1 332
+
+data/random/800_8000_0 149 epoch=39 1=new_time
+	time=79.985 iter_num=1 149

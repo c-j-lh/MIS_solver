@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.sparse import coo_matrix
 from config import *
+import igraph
 # xp = chainer.cuda.cupy if use_gpu else np
 xp = np
 
@@ -17,6 +18,7 @@ class Graph:
         self.tmp[b].add(a)
 
     def build(self):
+        self.m = 0
         if self.is_dense:
             self.adj = xp.zeros((self.n, self.n), dtype=xp.float32)
             for a in range(self.n):
@@ -38,6 +40,13 @@ class Graph:
                         self.m += 1
             self.adj = coo_matrix((np.ones(2 * self.m, dtype=np.float32), (np.array(x), np.array(y))), shape=(self.n, self.n))
 
+def from_igraph(graph):
+    adjlist = graph.get_adjlist()
+    g = Graph(len(adjlist), use_dense)
+    g.tmp[:] = map(set, adjlist)
+    g.build()
+    return g
+
 def generate_random_graph(n, m):
     g = Graph(n, use_dense)
     acc = 0
@@ -53,17 +62,37 @@ def generate_random_graph(n, m):
     return g
 
 def read_graph(filename):
-    f = open(filename)
-    text = f.readlines()
-    n, m = map(int, text[0].split())
-    g = Graph(n, use_dense)
-    print("Start reading file {}".format(filename))
-    for i in range(m):
-        a, b = map(int, text[1 + i].split())
-        g.add_edge(a, b)
-    print("Finish reading file {}".format(filename))
+    if filename.endswith('.mis'):
+        with open(filename, 'r') as file:
+            g = None
+            for line in file:
+                line = line.strip()
+                if line[:1] == 'c':
+                    continue
+                if line[:7] == 'p edge ':
+                    n, m = map(int, filter(bool, line[7:].split(' ')))
+                    g = Graph(n+1, use_dense)  # null edge 0
+                elif line[:1] == 'e':
+                    a, b = map(int, filter(bool,line[1:].split(' ')))
+                    g.add_edge(a, b)
+            if g is None:
+                raise Exception('{} not formatted properly'.format(filename))
+
+        #    graph = igraph.Graph.Read_DIMACS(file)
+        #    adjlist = graph.get_adjlist()
+        #    g = Graph(len(adjlist), sum(map(len,adjlist))//2)
+        #    g.tmp = [set(neighbors) for neighbors in adjlist] 
+    else: 
+        with open(filename, 'r') as file:
+            text = file.readlines()
+            n, m = map(int, text[0].split())
+            g = Graph(n, use_dense)
+            #print("Start reading file {}".format(filename))
+            for i in range(m):
+                a, b = map(int, text[1 + i].split())
+                g.add_edge(a, b)
+            #print("Finish reading file {}".format(filename))
     g.build()
-    f.close()
     return g
 
 def write_graph(graph, filename):

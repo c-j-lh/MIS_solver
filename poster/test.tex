@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[hmargin=2cm,bmargin=3cm,tmargin=4.5cm,centering]{geometry}
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calc}
+\usepackage{lmodern}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{atbegshi}
+\usepackage[backend=biber]{biblatex}
+
+
+\definecolor{mygreen}{RGB}{25,170,75}
+\newcommand\Header{%
+\begin{tikzpicture}[remember picture,overlay]
+\node[yshift=-1.3cm] at (current page.north)
+  {Solving Harder Instances of Maximum Independent Set with Reinforcement Learning};
+\end{tikzpicture}%
+}
+
+\newcommand\Footer{%
+\begin{tikzpicture}[remember picture,overlay]
+\node[yshift=1.3cm] at (current page.south west)
+  {\fontsize{20}{30}\selectfont Chieu Le Heng\\ Mr Wee Liang Chi\\ Dr Chai Kian Ming Adam};
+\end{tikzpicture}%
+}
+
+\pagestyle{empty}
+\AtBeginShipout{\Header\Footer}
+\AtBeginShipoutFirst{\Header\Footer}
+
+\begin{document}
+\begin{multicols}{3}
+\lipsum[1-15]
+\end{multicols}
+\end{document}

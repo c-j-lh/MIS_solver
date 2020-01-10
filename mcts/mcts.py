@@ -2,6 +2,7 @@ import time
 import numpy as np
 from config import use_dense
 import torch
+from tqdm import tqdm, trange
 from environ.mis_env import MISEnv
 from environ.mis_env_sparse import MISEnv_Sparse
 from mcts.mcts_node import MCTSNode
@@ -13,7 +14,7 @@ from utils.nodehash import NodeHash
 EPS = 1e-30  # cross entropy loss: pi * log(EPS + p) (in order to avoid log(0))
 
 class MCTS:
-    def __init__(self, gnn, performance=False):
+    def __init__(self, gnn, performance=False, dynamic=-1, weights=(5,1)):
         self.optimizer = torch.optim.Adam(gnn.parameters(), lr=0.003, weight_decay=1e-6)
         self.gnn = gnn
         self.nodehash = NodeHash(5000)
@@ -21,6 +22,8 @@ class MCTS:
         # max reward of root in rollout
         self.root_max = 0
         self.performance = performance
+        self.dynamic = dynamic
+        self.counts = []
 
     # update Q(s,a), N(s,a) of parent
     def update_parent(self, node, V):
@@ -34,7 +37,7 @@ class MCTS:
         par.visit_cnt[node.idx] += 1
 
     def update_Q(self, node, V, idx, method):
-        if method == "mean":
+        if method == "mean": # the case
             node.Q[idx] = (node.Q[idx] * node.visit_cnt[idx] + V) / (node.visit_cnt[idx] + 1)
         elif method == "max":
             node.Q[idx] = max(node.Q[idx], V)
@@ -66,18 +69,23 @@ class MCTS:
             self.update_parent(node, V)
             node = node.parent
         self.root_max = max(self.root_max, V)
-        return V
+        return int(V)
 
     # return improved pi by MCTS
     def get_improved_pi(self, root_node, TAU, iter_p=2, stop_at_leaf=False):
         assert not root_node.is_end()
         self.root_max = 0
         n, _ = root_node.graph.shape
-        for i in range(min(500, max(50, n * iter_p))):
-            self.rollout(root_node, stop_at_leaf=stop_at_leaf)
+        n_iter = int(self.dynamic * min(500, max(50, n * iter_p)))
+        print('\ndynamic:', self.dynamic, 'n:', n, 'iter_p:', iter_p, 'n_iter', n_iter, '\n')
+        self.counts[-1].append([])
+        for i in trange(n_iter, leave=False, unit='iteration'):
+        #for i in range(min(500, max(50, n * iter_p))): #original
+            self.counts[-1][-1].append(self.rollout(root_node, stop_at_leaf=stop_at_leaf))
         return root_node.pi(TAU)
 
     def train(self, graph, TAU, batch_size=10, iter_p=2, stop_at_leaf=False):
+        self.counts.append([])
         self.gnnhash.clear()
         mse = torch.nn.MSELoss()
         env = MISEnv() if use_dense else MISEnv_Sparse()
@@ -89,17 +97,20 @@ class MCTS:
         means = []
         stds = []
         done = False
+        pbar = tqdm(leave=False, unit="node_added_to_MIS")
         while not done:
             n, _ = graph.shape
             node = MCTSNode(graph, self)
             means.append(node.reward_mean)
             stds.append(node.reward_std)
+            print('get_improved_pi called')
             pi = self.get_improved_pi(node, TAU, iter_p=iter_p, stop_at_leaf=stop_at_leaf)
             action = np.random.choice(n, p=pi)
             graphs.append(graph)
             actions.append(action)
             pis.append(pi)
             graph, reward, done, info = env.step(action)
+            pbar.update(1)
 
         T = len(graphs)
         idxs = [i for i in range(T)]
@@ -127,7 +138,7 @@ class MCTS:
     def search(self, graph, iter_num=10):
         root_node = MCTSNode(graph, self)
         ans = []
-        for i in range(iter_num):
+        for i in trange(iter_num, leave=False, unit='rollout iteration'):
             r = self.rollout(root_node)
             if self.performance: print(r)
             ans.append(r)
@@ -135,14 +146,17 @@ class MCTS:
 
     # rollout iter_num times
     def search_for_exp(self, graph, time_limit=600, min_iter_num=100):
-        now = time.time()
+        now = time.process_time()
         root_node = MCTSNode(graph, self)
         ans = []
         cnt = 0
-        while cnt < min_iter_num or time.time() - now < time_limit:
+        pbar = tqdm(leave=False, unit="rollout_{}_iteration".format(self.gnn.idx))
+        while time.process_time() - now < time_limit or cnt == 0:
             r = self.rollout(root_node)
+            pbar.update(1)
             ans.append(r)
             cnt += 1
+        pbar.close()
         return ans
 
     # get improved pi for every action (by rolling out until end)

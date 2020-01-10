@@ -34,7 +34,7 @@ def my_std(a, mean):
 
 # policy and value network for MCTS
 class GIN3(torch.nn.Module):
-    def __init__(self, layer_num=2, feature=8, M=1, dropout=0.5):
+    def __init__(self, layer_num=2, feature=8, M=1, dropout=0.5, idx=-1):
         super(GIN3, self).__init__()
         self.layers = torch.nn.ModuleList()
         for l in range(layer_num):
@@ -45,6 +45,7 @@ class GIN3(torch.nn.Module):
         self.value_output_layer = MLP(feature, M)
         self.policy_output_layer = MLP(feature, M)
         self.dropout = dropout
+        self.idx = idx
 
     # return (policy, value)
     def forward(self, adj, force_dense=False):

@@ -1,0 +1,14 @@
+[I 17:44:20.149 NotebookApp] Serving notebooks from local directory: /home/clheng/temporary-project/graph
+[I 17:44:20.149 NotebookApp] The Jupyter Notebook is running at:
+[I 17:44:20.149 NotebookApp] http://localhost:8888/?token=5f3a9075e72f3df4d03bd4b89b66622c714aa1283c262c67
+[I 17:44:20.149 NotebookApp]  or http://127.0.0.1:8888/?token=5f3a9075e72f3df4d03bd4b89b66622c714aa1283c262c67
+[I 17:44:20.149 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:44:20.154 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/clheng/.local/share/jupyter/runtime/nbserver-6810-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=5f3a9075e72f3df4d03bd4b89b66622c714aa1283c262c67
+     or http://127.0.0.1:8888/?token=5f3a9075e72f3df4d03bd4b89b66622c714aa1283c262c67
+Opening in existing browser session.
+[I 17:44:23.491 NotebookApp] Kernel started: 733ab07c-06ee-40c0-9947-7c6a9b016877

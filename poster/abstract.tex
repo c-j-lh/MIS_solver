@@ -1,0 +1,18 @@
+\documentclass[12pt]{article}
+\usepackage[
+    backend=biber,
+    style=apa
+]{biblatex}
+\addbibresource{sample.bib}
+
+\begin{document}
+\title{Abstract}
+\date{\vspace{-5ex}}
+\maketitle
+
+Finding the Maximum Independent Set (MIS) of a graph is an NP-hard problem for which exact algorithms have exponential time complexity, with applications in cryptography, market graphs and coding theory. Recently, machine learning has been tried on NP-hard problems as an alternative to heuristics and other approximation algorithms. Using reinforcement learning with a combination of Monte Carlo Tree Search (MCTS) and Graph Neural Networks (GNNs) to solve MIS is a relatively new approach used in \citeauthor{main} [2019]. 
+
+However, the results of \citeauthor*{main} do not compare to state of the art algorithms. We propose improvements to the training and testing of the models used in \citeauthor*{main}, including curriculum learning on graph density and number of nodes. We also change the MCTS algorithm variant to involve the GNN more. Finally, we characterise how the models work, and observe that the trained model roughly follows an intuitive heuristic. 
+
+%\printbibliography
+\end{document}

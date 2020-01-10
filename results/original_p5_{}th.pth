@@ -1,0 +1,84 @@
+random/1000_2500_2 440
+random/1000_2500_0 434 gnn_idxs=range(0 10, time: 600s)
+random/1000_2500_0 433 gnn_idxs=range(0 1, time: 30s)
+random/1000_2500_1 434 gnn_idxs=range(0 1, time: 30s)
+random/1000_2500_2 440 gnn_idxs=range(0 1, time: 30s)
+random/1000_2500_0 433 gnn_idxs=range(0 4, time: 30s)
+random/1000_2500_0 433 gnn_idxs=range(0 4, time: 30s)
+random/1000_2500_1 434 gnn_idxs=range(0 4, time: 30s)
+random/1000_2500_2 440 gnn_idxs=range(0 4, time: 30s)
+random/1000_2500_1 434 gnn_idxs=range(0 4, time: 30s)
+random/1000_2500_2 440 gnn_idxs=range(0 4, time: 30s)
+random/1000_2500_0 433 gnn_idxs=range(0 3, time: 120s)
+random/1000_2500_1 434 gnn_idxs=range(0 3, time: 120s)
+random/1000_2500_2 440 gnn_idxs=range(0 3, time: 120s)
+100_250_0 24.0 models=1 iter_num=2)
+100_250_1 26.0 models=1 iter_num=2)
+100_250_2 25.0 models=1 iter_num=2)
+100_250_3 25.0 models=1 iter_num=2)
+data/random/100_300_0 38.0 models=1 new time=2
+data/random/100_0.2_0 20.0 models=1 new time=2
+data/random/100_0.5_0 9.0 models=1 new time=2
+data/random/100_0.8_0 4.0 models=1 new time=2
+data/random/100_4800_0 3.0 models=1 new time=2
+data/random/200_600_0 79.0 models=1 new time=2
+data/random/200_0.2_0 22.0 models=1 new time=2
+data/random/200_0.5_0 10.0 models=1 new time=2
+data/random/200_0.8_0 6.0 models=1 new time=2
+data/random/200_19600_0 3.0 models=1 new time=2
+data/random/400_1200_0 159.0 models=1 new time=2
+data/random/100_300_0 38 models=1 new time=2
+gnn=0 18.311584574 38
+data/random/100_0.2_0 20 models=1 new time=18.311584574
+gnn=0 25.697595258 19 19 20 20 20
+data/random/100_0.5_0 8 models=1 new time=25.697595258
+gnn=0 33.29915127299999 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 8 8 8
+data/random/100_0.8_0 4 models=1 new time=33.29915127299999
+gnn=0 40.68533661299999 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+data/random/100_4800_0 3 models=1 new time=40.68533661299999
+gnn=0 48.193956568999994 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+data/random/200_600_0 79 models=1 new time=48.193956568999994
+gnn=0 123.87646668800002 79 79 79 79 79 79 79 79 79
+data/random/200_0.2_0 22 models=1 new time=123.87646668800002
+gnn=0 134.18640924700003 22 22 22 22 22 22 22 22 22 21 22 22 22 22 22 22 22 22 22 22 22 22 22 21 22 22 22 22 22 22 22 22 22 22 22
+data/random/100_300_0 38 models=1 new time=2
+gnn=0 18.376 iter_num= 38
+data/random/100_0.2_0 20 models=1 new time=18.375595692999994
+gnn=0 25.676 iter_num= 19 20 20 20 20
+data/random/100_0.5_0 8 models=1 new time=25.675770036000003
+gnn=0 33.079 iter_num= 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 8 8
+data/random/100_300_0 38 models=1 new time=2
+gnn=0 18.18 iter_num=1 38
+data/random/100_0.2_0 19 models=1 new time=2
+gnn=0 12.823 iter_num=1 19
+data/random/100_0.5_0 8 models=1 new time=2
+gnn=0 9.599 iter_num=1 8
+data/random/100_0.8_0 4 models=1 new time=2
+gnn=0 9.367 iter_num=2 4 4
+data/random/100_4800_0 3 models=1 new time=2
+gnn=0 9.491 iter_num=4 3 3 3 3
+data/random/100_300_0 38 models=1 new_time=2
+gnn=0 18.444 iter_num=1 38
+data/random/100_0.2_0 19 models=1 new_time=2
+gnn=0 12.794 iter_num=1 19
+data/random/100_0.5_0 8 models=1 new_time=2
+gnn=0 9.698 iter_num=1 8
+data/random/100_0.8_0 4 models=1 new_time=2
+gnn=0 9.374 iter_num=2 4 4
+data/random/100_4800_0 3 models=1 new_time=2
+gnn=0 9.198 iter_num=4 3 3 3 3
+data/random/100_300_0 38 models=1 new_time=2
+data/random/100_300_0 38 models=1 new_time=2
+gnn=0 time=11.237 iter_num=1 38
+data/random/100_0.2_0 19 models=1 new_time=2
+gnn=0 time=5.685 iter_num=1 19
+data/random/100_0.5_0 8 models=1 new_time=2
+gnn=0 time=2.475 iter_num=1 8
+data/random/100_0.8_0 4 models=1 new_time=2
+gnn=0 time=2.366 iter_num=2 4 4
+data/random/100_4800_0 3 models=1 new_time=2
+gnn=0 time=2.240 iter_num=4 3 3 3 3
+data/random/200_600_0 79 models=1 new_time=2
+gnn=0 time=23.838 iter_num=1 79
+data/frb/frb30-15-0.mis 24 models=1 new_time=2
+	gnn=0 time=10.516 iter_num=1 24

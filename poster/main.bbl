@@ -1,0 +1,395 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{main}{article}{}
+      \name{author}{4}{}{%
+        {{hash=81bfd2239c99b97650e30f2539554e59}{%
+           family={Abe},
+           familyi={A\bibinitperiod},
+           given={Kenshin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ce412abf79a4fea99c16b14d00ecee40}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Zijian},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d5d66641cb883e9b05e0afd9c628daab}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Issei},
+           giveni={I\bibinitperiod}}}%
+        {{hash=39334f77cbd67c8922133952b8095d89}{%
+           family={Sugiyama},
+           familyi={S\bibinitperiod},
+           given={Masashi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{04c82941da13e873edebcc0581e32e7c}
+      \strng{fullhash}{7fbe95acb7422249d6e8889d1ec527c3}
+      \strng{bibnamehash}{7fbe95acb7422249d6e8889d1ec527c3}
+      \strng{authorbibnamehash}{7fbe95acb7422249d6e8889d1ec527c3}
+      \strng{authornamehash}{04c82941da13e873edebcc0581e32e7c}
+      \strng{authorfullhash}{7fbe95acb7422249d6e8889d1ec527c3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1905.11623}
+      \field{title}{Solving {NP-Hard} problems on graphs by Reinforcement Learning without domain knowledge}
+      \field{year}{2019}
+    \endentry
+    \entry{applications}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=e288820120bc21fa50411bed9ec3e739}{%
+           family={Butenko},
+           familyi={B\bibinitperiod},
+           given={Sergiy},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Florida}%
+      }
+      \strng{namehash}{e288820120bc21fa50411bed9ec3e739}
+      \strng{fullhash}{e288820120bc21fa50411bed9ec3e739}
+      \strng{bibnamehash}{e288820120bc21fa50411bed9ec3e739}
+      \strng{authorbibnamehash}{e288820120bc21fa50411bed9ec3e739}
+      \strng{authornamehash}{e288820120bc21fa50411bed9ec3e739}
+      \strng{authorfullhash}{e288820120bc21fa50411bed9ec3e739}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Maximum Independent Set and Related Problems, With Applications}
+      \field{type}{phdthesis}
+      \field{year}{2003}
+    \endentry
+    \entry{xiao2017exact}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b9e68c1a088662431817db305fc5cd7d}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Mingyu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6742bd7004b561e286e6981a93f37deb}{%
+           family={Nagamochi},
+           familyi={N\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{89c9ac7fe6b700854ac2132aa511b937}
+      \strng{fullhash}{89c9ac7fe6b700854ac2132aa511b937}
+      \strng{bibnamehash}{89c9ac7fe6b700854ac2132aa511b937}
+      \strng{authorbibnamehash}{89c9ac7fe6b700854ac2132aa511b937}
+      \strng{authornamehash}{89c9ac7fe6b700854ac2132aa511b937}
+      \strng{authorfullhash}{89c9ac7fe6b700854ac2132aa511b937}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information and Computation}
+      \field{title}{Exact algorithms for maximum independent set}
+      \field{volume}{255}
+      \field{year}{2017}
+      \field{pages}{126\bibrangedash 146}
+      \range{pages}{21}
+    \endentry
+    \entry{sup}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=90714408557745f208b91ec0eec7dfcc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhuwen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7928a0b7e3ee0c5a35a82d179201a4d7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Qifeng},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=9025300f43a193cfed8e10e924f2a117}{%
+           family={Koltun},
+           familyi={K\bibinitperiod},
+           given={Vladlen},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b0b79f6366a1a6f774b67a12297f0c4}
+      \strng{fullhash}{2b0b79f6366a1a6f774b67a12297f0c4}
+      \strng{bibnamehash}{2b0b79f6366a1a6f774b67a12297f0c4}
+      \strng{authorbibnamehash}{2b0b79f6366a1a6f774b67a12297f0c4}
+      \strng{authornamehash}{2b0b79f6366a1a6f774b67a12297f0c4}
+      \strng{authorfullhash}{2b0b79f6366a1a6f774b67a12297f0c4}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Combinatorial optimization with graph convolutional networks and guided tree search}
+      \field{year}{2018}
+      \field{pages}{539\bibrangedash 548}
+      \range{pages}{10}
+    \endentry
+    \entry{UCB}{article}{}
+      \name{author}{3}{}{%
+        {{hash=de2b1529f66914ba9967dda20bdb0644}{%
+           family={Auer},
+           familyi={A\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=89f1e7e7e27f5357b3e87aca075cfb69}{%
+           family={Cesa-Bianchi},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={Nicolo},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3f61fb26219e72a888dd3e4c0db570a5}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d5195b465eccafe0b0c795d9b346efc8}
+      \strng{fullhash}{d5195b465eccafe0b0c795d9b346efc8}
+      \strng{bibnamehash}{d5195b465eccafe0b0c795d9b346efc8}
+      \strng{authorbibnamehash}{d5195b465eccafe0b0c795d9b346efc8}
+      \strng{authornamehash}{d5195b465eccafe0b0c795d9b346efc8}
+      \strng{authorfullhash}{d5195b465eccafe0b0c795d9b346efc8}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Learning}
+      \field{number}{2-3}
+      \field{title}{Finite-time analysis of the multiarmed bandit problem}
+      \field{volume}{47}
+      \field{year}{2002}
+      \field{pages}{235\bibrangedash 256}
+      \range{pages}{22}
+    \endentry
+    \entry{curriculum-learning}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ece801da8087380e7c456d02b21e1386}{%
+           family={Louradour},
+           familyi={L\bibinitperiod},
+           given={J{é}r{ô}me},
+           giveni={J\bibinitperiod}}}%
+        {{hash=133261178beda1dc3991e0e1dfd5a791}{%
+           family={Collobert},
+           familyi={C\bibinitperiod},
+           given={Ronan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=417a25f3511d7c21e76d4a15e67dd679}{%
+           family={Weston},
+           familyi={W\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0e3ea060db646c0dad56e8dc0af2f682}
+      \strng{fullhash}{c01927472007a007f405125d87b85303}
+      \strng{bibnamehash}{c01927472007a007f405125d87b85303}
+      \strng{authorbibnamehash}{c01927472007a007f405125d87b85303}
+      \strng{authornamehash}{0e3ea060db646c0dad56e8dc0af2f682}
+      \strng{authorfullhash}{c01927472007a007f405125d87b85303}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 26th Annual Iternational Conference on Machine Learning}
+      \field{title}{Curriculum learning}
+      \field{year}{2009}
+      \field{pages}{41\bibrangedash 48}
+      \range{pages}{8}
+    \endentry
+    \entry{phase-transition}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bd582961e65088d6d5c0b585de74791f}{%
+           family={Coja{-}Oghlan},
+           familyi={C\bibinitperiod},
+           given={Amin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e587e973c61241dc585c202af56acd71}{%
+           family={Efthymiou},
+           familyi={E\bibinitperiod},
+           given={Charilaos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4542e482862d156c9460cb22242664ba}
+      \strng{fullhash}{4542e482862d156c9460cb22242664ba}
+      \strng{bibnamehash}{4542e482862d156c9460cb22242664ba}
+      \strng{authorbibnamehash}{4542e482862d156c9460cb22242664ba}
+      \strng{authornamehash}{4542e482862d156c9460cb22242664ba}
+      \strng{authorfullhash}{4542e482862d156c9460cb22242664ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{On independent sets in random graphs}
+      \field{volume}{abs/1007.1378}
+      \field{year}{2010}
+      \verb{eprint}
+      \verb 1007.1378
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1007.1378
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1007.1378
+      \endverb
+    \endentry
+    \entry{random-graphs}{article}{}
+      \name{author}{2}{}{%
+        {{hash=44518eeccfba28e3880b5ef0adc8097f}{%
+           family={Erd{ő}s},
+           familyi={E\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2fef13c6189414b35a09c32be9c52f9b}{%
+           family={R{é}nyi},
+           familyi={R\bibinitperiod},
+           given={Alfr{é}d},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a0e484f3cb42621ad28d5c49eed9bef}
+      \strng{fullhash}{7a0e484f3cb42621ad28d5c49eed9bef}
+      \strng{bibnamehash}{7a0e484f3cb42621ad28d5c49eed9bef}
+      \strng{authorbibnamehash}{7a0e484f3cb42621ad28d5c49eed9bef}
+      \strng{authornamehash}{7a0e484f3cb42621ad28d5c49eed9bef}
+      \strng{authorfullhash}{7a0e484f3cb42621ad28d5c49eed9bef}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publ. Math. Inst. Hung. Acad. Sci}
+      \field{number}{1}
+      \field{title}{On the evolution of random graphs}
+      \field{volume}{5}
+      \field{year}{1960}
+      \field{pages}{17\bibrangedash 60}
+      \range{pages}{44}
+    \endentry
+    \entry{dataset}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6ccd6b6d635d297a3626c29742a8674c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{fullhash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{bibnamehash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{authorbibnamehash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{authornamehash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{authorfullhash}{6ccd6b6d635d297a3626c29742a8674c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{BHOSLIB}: Benchmarks with hidden optimum solutions for graph problems (Maximum Clique, Maximum Independent Set, Minimum Vertex Cover and Vertex Coloring) ------ hiding exact solutions in random graphs}
+      \field{urlday}{20}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://sites.nlsde.buaa.edu.cn/~kexu/benchmarks/graph-benchmarks.htm
+      \endverb
+      \verb{url}
+      \verb http://sites.nlsde.buaa.edu.cn/~kexu/benchmarks/graph-benchmarks.htm
+      \endverb
+    \endentry
+    \entry{dataset2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6ccd6b6d635d297a3626c29742a8674c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{fullhash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{bibnamehash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{authorbibnamehash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{authornamehash}{6ccd6b6d635d297a3626c29742a8674c}
+      \strng{authorfullhash}{6ccd6b6d635d297a3626c29742a8674c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Forced Satisfiable {CSP} and {SAT} Benchmarks of Model {RB} ------Hiding Solutions with Growing Domains}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2010}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://sites.nlsde.buaa.edu.cn/~kexu/benchmarks/benchmarks.htm
+      \endverb
+      \verb{url}
+      \verb http://sites.nlsde.buaa.edu.cn/~kexu/benchmarks/benchmarks.htm
+      \endverb
+    \endentry
+    \entry{citation-networks}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4ee30921a665746786101104fb0d7300}{%
+           family={{LINQS group at University of California, Santa Cruz}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ee30921a665746786101104fb0d7300}
+      \strng{fullhash}{4ee30921a665746786101104fb0d7300}
+      \strng{bibnamehash}{4ee30921a665746786101104fb0d7300}
+      \strng{authorbibnamehash}{4ee30921a665746786101104fb0d7300}
+      \strng{authornamehash}{4ee30921a665746786101104fb0d7300}
+      \strng{authorfullhash}{4ee30921a665746786101104fb0d7300}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{LINQS}, {Statistical Relational Learning Group}}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2010}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://linqs.soe.ucsc.edu/
+      \endverb
+      \verb{url}
+      \verb https://linqs.soe.ucsc.edu/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

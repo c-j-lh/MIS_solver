@@ -14,13 +14,14 @@ ALPHA = 2  # ucb(s,a) = Q(s,a) + ALPHA * sqrt(N(s,a)) * P(s,a) / (1 + N(s,a))
 EPS = 1e-10
 
 class MCTSNode:
-    def __init__(self, graph, mcts, idx=-1, parent=None):
+    def __init__(self, graph, mcts, idx=-1, parent=None, weights=(1,0)):
         n, _ = graph.shape
         self.graph = graph
         self.parent = parent
         self.children = [None for _ in range(n)]
         self.mcts = mcts
         self.idx = idx
+        self.weights = weights
 
         self.visit_cnt = np.zeros(n, dtype=np.float32)
         if not self.is_end():
@@ -67,10 +68,23 @@ class MCTSNode:
     def normalize_reward(self, reward):
         return (reward - self.reward_mean) / self.reward_std
 
-    def best_child(self):
+    def raw_children(self):
         n, _ = self.graph.shape
-        ucb = self.Q + ALPHA * np.sqrt(self.visit_cnt.sum()) * self.P / (1 + self.visit_cnt)
-        return np.argmax(ucb)
+        #print('Q:',self.Q)
+        #print('P: {}'.format(self.P))
+        #print('rest: {}'.format(self.mcts.gnn(self.graph)[1]))
+        ucb = (self.weights[0]*self.Q + self.weights[1]*self.mcts.gnn(self.graph)[1].detach().numpy())/sum(self.weights) + ALPHA * np.sqrt(self.visit_cnt.sum()) * self.P / (1 + self.visit_cnt)
+        #ucb = self.Q + ALPHA * np.sqrt(self.visit_cnt.sum()) * self.P / (1+self.visit_cnt)
+        #ucb -= ucb.mean()
+        #ucb /= ucb.std()
+        return ucb
+
+    def raw_normal_children():
+        ucb = self.raw_chilren()
+        return (ucb-ucb.mean())/ucb.std()
+
+    def best_child(self):
+        return np.argmax(self.raw_children())
 
     def pi(self, TAU):
         pow_tau = np.power(self.visit_cnt, 1 / TAU)

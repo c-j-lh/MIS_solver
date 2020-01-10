@@ -1,0 +1,751 @@
+Starting training: {'epochs': -1, 'dynamic': -1, 'test_size': -1, 'train_size': -1, 'models': ()}. Time: 08:50:00.003023Starting training: {'models': [1], 'epochs': 600, 'weights': [4, 2], 'train_size': 500, 'dynamic': 200, 'test_size': 500}. Time: 10:10:46.628615
+Starting training: {'dynamic': 200, 'models': [0], 'epochs': 600, 'weights': [1, 0], 'train_size': 100, 'test_size': 200}. Time: 17:10:41.462425
+
+Starting training: {'test_size': 200, 'dynamic': 200, 'epochs': 600, 'models': [0], 'weights': [1, 0], 'train_size': 200}. Time: 17:10:51.717916
+
+Starting training: ['base_train_size', 'curricular', 'dynamic', 'epochs', 'models', 'test_size', 'weights'].
+Time: 2019-12-02 10:50:49
+setup_name: m200
+
+Starting training: ['base_train_size', 'curricular', 'dynamic', 'epochs', 'models', 'test_size', 'weights'].
+Time: 2019-12-02 10:51:19
+setup_name: m200
+
+Starting training: ['base_train_size', 'curricular', 'dynamic', 'epochs', 'models', 'test_size', 'weights'].
+Time: 2019-12-02 10:52:23
+setup_name: m200
+
+Starting training: [('base_train_size', 100), ('curricular', True), ('dynamic', 200), ('epochs', 200), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 10:54:19
+setup_name: p200
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 200), ('epochs', 200), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 12:09:48
+setup_name: p200
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 12:24:38
+setup_name: n001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 12:29:21
+setup_name: n001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 13:31:57
+setup_name: n001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 13:34:16
+setup_name: n001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 13:38:23
+setup_name: n001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 13:40:59
+setup_name: n001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.01), ('epochs', 600), ('models', range(0, 4)), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-02 13:47:13
+setup_name: m0.01 (new dynamic)
+
+Starting training: {'test_size': 200, 'dynamic': 200, 'models': [0], 'epochs': 600, 'weights': [1, 0], 'train_size': 100}. Time: 17:12:50.358806
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', [5, 1])].
+Time: 2019-12-04 09:31:13
+setup_name: n001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', [5, 1])].
+Time: 2019-12-04 09:38:12
+setup_name: n001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', [10, 1])].
+Time: 2019-12-04 09:48:32
+setup_name: o001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', [5, 1])].
+Time: 2019-12-04 10:55:33
+setup_name: p001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', [5, 1])].
+Time: 2019-12-04 10:57:54
+setup_name: q001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', [5, 1])].
+Time: 2019-12-04 10:58:06
+setup_name: r001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 25), ('models', [0]), ('test_size', 100), ('weights', [9, 1])].
+Time: 2019-12-04 16:42:24
+setup_name: s001 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('test_size', 200), ('weights', (1, 0))].
+Time: 2019-12-04 18:25:23
+setup_name: t001 (new dynamic)
+
+Starting training: [('base_train_size', 400), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('test_size', 200), ('weights', (1, 0))].
+Time: 2019-12-04 18:25:38
+setup_name: u001 (new dynamic)
+
+Starting training: [('base_train_size', 500), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('test_size', 200), ('weights', (1, 0))].
+Time: 2019-12-04 18:25:47
+setup_name: v001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-09 17:50:39
+setup_name: y001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-09 17:57:25
+setup_name: z001 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-09 17:58:15
+setup_name: {001 (new dynamic)
+
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-10 08:44:04
+setup_name: testing (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-10 09:05:51
+setup_name: testing2 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-10 09:08:48
+setup_name: testing3 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-10 09:09:46
+setup_name: testing4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-10 09:17:43
+setup_name: testing5 (new dynamic)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'chardened'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-11 14:22:18
+setup_name: chardened (new dynamic)
+
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'hardened'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-11 14:23:18
+setup_name: hardened (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-11 14:33:59
+setup_name: cinc (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-11 14:36:25
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-11 14:37:01
+setup_name: train300 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train100'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-11 14:37:19
+setup_name: train100 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'dynUCB'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-11 14:59:08
+setup_name: dynUCB (new dynamic)
+
+
+
+
+
+
+
+
+
+
+
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'rubb -c 10293'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-12 17:06:46
+setup_name: rubb -c 10293 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'rubb5 -c laksdjfslfkjalksdjf'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-12 17:15:52
+setup_name: rubb5 -c laksdjfslfkjalksdjf (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'rubb4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-12 17:21:04
+setup_name: rubb4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 14:52:35
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 14:53:43
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 14:53:53
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 14:54:57
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 14:56:10
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 14:58:09
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:12:08
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:13:44
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:14:30
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:14:33
+setup_name: train300 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:15:52
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200_{}.pth --train_size 200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:17:03
+setup_name: train200_{}.pth --train_size 200 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', '--train_size 200 train200_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:17:45
+setup_name: --train_size 200 train200_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:18:41
+setup_name: train200_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:24:16
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:26:13
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:27:49
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:37:38
+setup_name: cinc_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train100_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:38:43
+setup_name: train100_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train100_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:39:21
+setup_name: train100_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:40:09
+setup_name: train200_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:43:12
+setup_name: train200_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'hardened'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:46:30
+setup_name: hardened (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'hardened_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:47:00
+setup_name: hardened_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'chardened_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:47:14
+setup_name: chardened_{}.pth (new dynamic)
+
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train300_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:53:36
+setup_name: train300_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'chardened_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 15:56:07
+setup_name: chardened_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:46:26
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:48:03
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:51:06
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:52:45
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:53:24
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:54:34
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:56:09
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:56:30
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 16:56:44
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:01:21
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:01:52
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testt'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:06:33
+setup_name: testt (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testr'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:25:48
+setup_name: testr (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testr'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:26:37
+setup_name: testr (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testr'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:27:25
+setup_name: testr (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testr'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:28:26
+setup_name: testr (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testr'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:28:47
+setup_name: testr (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'testr'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:29:42
+setup_name: testr (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'cinc'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:34:17
+setup_name: cinc (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:34:29
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:36:03
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:37:10
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 600), ('models', [0]), ('setup_name', 'train200_{}.pth'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-13 17:41:32
+setup_name: train200_{}.pth (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'train200 --models 1 2_{}'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 15:34:27
+setup_name: train200 --models 1 2_{} (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'train200 --models 1 2_{}'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 15:35:04
+setup_name: train200 --models 1 2_{} (new dynamic)
+
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train200_{}'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 15:54:56
+setup_name: train200_{} (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train200_{}'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 15:59:29
+setup_name: train200_{} (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train200_{}'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:04:17
+setup_name: train200_{} (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:05:38
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:07:10
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'train300 --models 1 2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:07:34
+setup_name: train300 --models 1 2 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'train300 --train_size 300 --models 1 2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:10:08
+setup_name: train300 --train_size 300 --models 1 2 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'rubbtrain300 --train_size 300 --models 1 2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:10:29
+setup_name: rubbtrain300 --train_size 300 --models 1 2 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'rubbtrain300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:10:41
+setup_name: rubbtrain300 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'rubbtrain300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:11:01
+setup_name: rubbtrain300 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'rubbtrain300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:14:27
+setup_name: rubbtrain300 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:18:08
+setup_name: train300 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:18:51
+setup_name: train300 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:18:56
+setup_name: train200 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1]), ('setup_name', 'hardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:21:03
+setup_name: hardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'cinc'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:31:21
+setup_name: cinc (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'train100'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:32:29
+setup_name: train100 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1, 2]), ('setup_name', 'dynUCB'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:33:54
+setup_name: dynUCB (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [2]), ('setup_name', 'hardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:35:42
+setup_name: hardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1, 2]), ('setup_name', 'chardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-17 16:37:46
+setup_name: chardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1, 2]), ('setup_name', 'chardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-18 08:59:46
+setup_name: chardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1, 2]), ('setup_name', 'chardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-18 09:00:13
+setup_name: chardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1, 2]), ('setup_name', 'chardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-18 09:01:10
+setup_name: chardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1, 2]), ('setup_name', 'chardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-18 09:01:59
+setup_name: chardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1, 2]), ('setup_name', 'chardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-18 09:05:22
+setup_name: chardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1, 2]), ('setup_name', 'chardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-18 09:15:24
+setup_name: chardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0, 1, 2]), ('setup_name', 'chardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-18 09:22:06
+setup_name: chardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'debug'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 11:00:02
+setup_name: debug (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'debug'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 11:02:30
+setup_name: debug (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'debug'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 11:04:13
+setup_name: debug (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'debug'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 11:12:27
+setup_name: debug (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [2]), ('setup_name', 'train300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 17:42:06
+setup_name: train300 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [2]), ('setup_name', 'newtrain300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 17:42:22
+setup_name: newtrain300 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [2]), ('setup_name', 'newtrain300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 17:44:47
+setup_name: newtrain300 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newtrain300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 17:45:45
+setup_name: newtrain300 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newtrain200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-19 17:46:07
+setup_name: newtrain200 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'cinc_0'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 08:52:09
+setup_name: cinc_0 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'chardened_0'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 08:52:37
+setup_name: chardened_0 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newcinc'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 17:08:40
+setup_name: newcinc (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newtrain100'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 17:09:13
+setup_name: newtrain100 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newtrain100'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 17:09:44
+setup_name: newtrain100 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newhardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 17:11:15
+setup_name: newhardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newcinc2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 17:17:45
+setup_name: newcinc2 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newcinc2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 17:40:48
+setup_name: newcinc2 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newhardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-20 17:43:55
+setup_name: newhardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newhardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 09:42:03
+setup_name: newhardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newcinc2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 09:43:32
+setup_name: newcinc2 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newhardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 10:28:09
+setup_name: newhardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newhardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 10:36:14
+setup_name: newhardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newcinc2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 10:39:53
+setup_name: newcinc2 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newcinc2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 11:52:21
+setup_name: newcinc2 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [1]), ('setup_name', 'newtrain100'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 16:15:13
+setup_name: newtrain100 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'novatrain100'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 16:21:53
+setup_name: novatrain100 (new dynamic)
+
+Starting training: [('base_train_size', 200), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'novatrain200'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 16:22:02
+setup_name: novatrain200 (new dynamic)
+
+Starting training: [('base_train_size', 300), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'novatrain300'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 16:22:23
+setup_name: novatrain300 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'novacinc'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 16:23:33
+setup_name: novacinc (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newhardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 16:37:15
+setup_name: newhardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newcinc2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-24 16:41:34
+setup_name: newcinc2 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newhardened4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-26 15:04:18
+setup_name: newhardened4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'newcinc2'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-26 15:04:55
+setup_name: newcinc2 (new dynamic)
+
+
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.5), ('epochs', 100), ('models', [0]), ('setup_name', 'm.5'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-27 17:42:33
+setup_name: m.5 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.25), ('epochs', 100), ('models', [0]), ('setup_name', 'm.25'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-27 17:42:48
+setup_name: m.25 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.5), ('epochs', 100), ('models', [0]), ('setup_name', 'm.5'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-27 17:45:38
+setup_name: m.5 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.25), ('epochs', 100), ('models', [0]), ('setup_name', 'm.25'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-27 17:50:48
+setup_name: m.25 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.25), ('epochs', 100), ('models', [0]), ('setup_name', 'newm.25'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 16:48:01
+setup_name: newm.25 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.25), ('epochs', 100), ('models', [0]), ('setup_name', 'newm.25'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 16:52:27
+setup_name: newm.25 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.5), ('epochs', 100), ('models', [0]), ('setup_name', 'newm.5'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 16:53:39
+setup_name: newm.5 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.25), ('epochs', 100), ('models', [0]), ('setup_name', 'newm.25'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 16:54:35
+setup_name: newm.25 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.5), ('epochs', 100), ('models', [0]), ('setup_name', 'newm.5'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 16:54:40
+setup_name: newm.5 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.5), ('epochs', 100), ('models', [1]), ('setup_name', 'newm.5'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 17:55:45
+setup_name: newm.5 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.25), ('epochs', 100), ('models', [1]), ('setup_name', 'newm.25'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 17:58:35
+setup_name: newm.25 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.2), ('epochs', 100), ('models', [0]), ('setup_name', 'm.20'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 21:00:59
+setup_name: m.20 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.3), ('epochs', 100), ('models', [0]), ('setup_name', 'm.30'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 21:01:19
+setup_name: m.30 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.4), ('epochs', 100), ('models', [0]), ('setup_name', 'm.40'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 21:02:02
+setup_name: m.40 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.6), ('epochs', 100), ('models', [0]), ('setup_name', 'm.60'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 21:02:10
+setup_name: m.60 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'q11'), ('test_size', 100), ('weights', [11, 1])].
+Time: 2019-12-31 22:43:18
+setup_name: q11 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'c3'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2019-12-31 23:01:02
+setup_name: c3 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.3), ('epochs', 100), ('models', [0]), ('setup_name', 'm.30'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 00:14:04
+setup_name: m.30 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'c4'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 00:30:09
+setup_name: c4 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 0.7), ('epochs', 100), ('models', [0]), ('setup_name', 'm.70'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 08:31:28
+setup_name: m.70 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'c5'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 08:31:39
+setup_name: c5 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 2.0), ('epochs', 100), ('models', [0]), ('setup_name', 'm2.0'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 11:11:40
+setup_name: m2.0 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'c6'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 11:11:44
+setup_name: c6 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'c7'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 14:18:30
+setup_name: c7 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 4.0), ('epochs', 100), ('models', [0]), ('setup_name', 'm4.0'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 14:18:37
+setup_name: m4.0 (new dynamic)
+
+Starting training: [('base_train_size', 100), ('curricular', False), ('dynamic', 1), ('epochs', 100), ('models', [0]), ('setup_name', 'c8'), ('test_size', 100), ('weights', (1, 0))].
+Time: 2020-01-01 15:52:53
+setup_name: c8 (new dynamic)

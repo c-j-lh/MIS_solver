@@ -1,0 +1,136 @@
+Hello
+
+GPU 3 used
+False is curricular?
+Traceback (most recent call last):
+  File "example.py", line 82, in <module>
+    train_and_save(dynamic=args.N_iter, models=args.models, epochs=args.epochs, base_train_size=args.train_size, test_size=args.test_size, weights=args.weights, curricular=args.curricular)
+  File "example.py", line 45, in train_and_save
+    trainer = MCTSTrainer(gnn, test_graphs,model_name, dynamic=30, weights=weights)
+  File "/home/cleheng/MIS_solver/mcts/mcts_trainer.py", line 16, in __init__
+    self.mcts = MCTS(gnn, dynamic=dynamic, weights=weights)
+  File "/home/cleheng/MIS_solver/mcts/mcts.py", line 20, in __init__
+    self.nodehash = NodeHash(5000)
+  File "/home/cleheng/MIS_solver/utils/nodehash.py", line 22, in __init__
+    b <<= 1
+KeyboardInterrupt
+
+GPU 3 used
+False is curricular?
+Traceback (most recent call last):
+  File "example.py", line 83, in <module>
+    train_and_save(dynamic=args.N_iter, models=args.models, epochs=args.epochs, base_train_size=args.train_size, test_size=args.test_size, weights=args.weights, curricular=args.curricular)
+  File "example.py", line 19, in train_and_save
+    if dynamic == -1: dynamic=min(500, max(50, train_size * 2)) if dynamic==-1 else dynamic
+UnboundLocalError: local variable 'train_size' referenced before assignment
+
+GPU 1 used
+Traceback (most recent call last):
+  File "example.py", line 6, in <module>
+    from mcts.mcts import MCTS
+  File "/home/cleheng/MIS_solver/mcts/mcts.py", line 79
+    for i in range(n_iter) if self.dynamic==-1 else self.dynamic):
+                                                                ^
+SyntaxError: invalid syntax
+
+GPU 3 used
+False is curricular?
+setup_name: n001
+Traceback (most recent call last):
+  File "example.py", line 83, in <module>
+    train_and_save(dynamic=args.N_iter, models=args.models, epochs=args.epochs, base_train_size=args.train_size, test_size=args.test_size, weights=args.weights, curricular=args.curricular)
+  File "example.py", line 53, in train_and_save
+    graph = generate_random_graph(train_size, int(2.5*train_size)).adj
+UnboundLocalError: local variable 'train_size' referenced before assignment
+all: 358175.68sec
+gnn: 69226.33sec
+test: 200552.01sec
+hash: 2595.64sec
+init hash: 7.42sec
+sample: 3040.28sec
+env: 1779.39sec
+train: 157618.54sec
+sample: 1100247times
+
+GPU 1 used
+setup_name: s001
+[I 14:59:01.665 NotebookApp] Serving notebooks from local directory: /home/clheng/temporary-project/graph
+[I 14:59:01.665 NotebookApp] The Jupyter Notebook is running at:
+[I 14:59:01.665 NotebookApp] http://localhost:8888/?token=f0ab2512d83104a6f0fc35a8057a32512ebe1ed04e557730
+[I 14:59:01.665 NotebookApp]  or http://127.0.0.1:8888/?token=f0ab2512d83104a6f0fc35a8057a32512ebe1ed04e557730
+[I 14:59:01.665 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:59:01.670 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/clheng/.local/share/jupyter/runtime/nbserver-27819-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=f0ab2512d83104a6f0fc35a8057a32512ebe1ed04e557730
+     or http://127.0.0.1:8888/?token=f0ab2512d83104a6f0fc35a8057a32512ebe1ed04e557730
+Opening in existing browser session.
+[W 14:59:03.936 NotebookApp] Notebook new.ipynb is not trusted
+[I 14:59:04.339 NotebookApp] Kernel started: 46cf56e1-3b6a-493d-a5f5-24964fd89e20
+[I 14:59:51.137 NotebookApp] Saving file at /new.ipynb
+[I 15:11:05.321 NotebookApp] Saving file at /new.ipynb
+[I 15:12:06.897 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:7671228d4ccb4668af7d7212027ebc76
+[I 15:14:06.591 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:c2a9452cb1ff4db189ebbfdc34578f5a
+[I 15:15:00.150 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:85dbfecb248542fb8877380a54961eea
+[I 15:15:17.524 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:9a8961c83e5e405b8147bb56ded62d84
+[I 15:57:18.449 NotebookApp] Saving file at /new.ipynb
+[I 15:59:18.420 NotebookApp] Saving file at /new.ipynb
+[I 15:59:37.390 NotebookApp] Saving file at /new.ipynb
+[I 15:59:39.419 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:9341009e381a4fbf9a3200803f6ec2ba
+[I 16:00:45.809 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:755642ca1e9e485c8872f592e59999a6
+[I 16:00:46.352 NotebookApp] Kernel restarted: 46cf56e1-3b6a-493d-a5f5-24964fd89e20
+[I 16:00:46.950 NotebookApp] Restoring connection for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:755642ca1e9e485c8872f592e59999a6
+[I 16:00:46.950 NotebookApp] Replaying 5 buffered messages
+[I 16:01:40.302 NotebookApp] Saving file at /new.ipynb
+[I 16:03:40.327 NotebookApp] Saving file at /new.ipynb
+[I 16:05:40.345 NotebookApp] Saving file at /new.ipynb
+[I 16:06:03.290 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:755642ca1e9e485c8872f592e59999a6
+[I 16:06:03.818 NotebookApp] Kernel restarted: 46cf56e1-3b6a-493d-a5f5-24964fd89e20
+[I 16:06:04.472 NotebookApp] Restoring connection for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:755642ca1e9e485c8872f592e59999a6
+[I 16:06:04.472 NotebookApp] Replaying 3 buffered messages
+[I 16:07:41.279 NotebookApp] Saving file at /new.ipynb
+[I 16:11:40.363 NotebookApp] Saving file at /new.ipynb
+[I 16:13:40.307 NotebookApp] Saving file at /new.ipynb
+[I 16:15:40.352 NotebookApp] Saving file at /new.ipynb
+[I 16:19:36.666 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:755642ca1e9e485c8872f592e59999a6
+[I 16:19:37.214 NotebookApp] Kernel restarted: 46cf56e1-3b6a-493d-a5f5-24964fd89e20
+[I 16:19:37.721 NotebookApp] Restoring connection for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:755642ca1e9e485c8872f592e59999a6
+[I 16:19:37.721 NotebookApp] Replaying 6 buffered messages
+[I 16:19:40.326 NotebookApp] Saving file at /new.ipynb
+[I 16:21:41.322 NotebookApp] Saving file at /new.ipynb
+[I 16:25:40.326 NotebookApp] Saving file at /new.ipynb
+[I 16:27:40.377 NotebookApp] Saving file at /new.ipynb
+[I 16:29:40.373 NotebookApp] Saving file at /new.ipynb
+[I 16:31:40.360 NotebookApp] Saving file at /new.ipynb
+[I 16:33:40.427 NotebookApp] Saving file at /new.ipynb
+[I 16:35:40.357 NotebookApp] Saving file at /new.ipynb
+[I 16:37:40.357 NotebookApp] Saving file at /new.ipynb
+[I 16:43:40.329 NotebookApp] Saving file at /new.ipynb
+[I 16:45:40.331 NotebookApp] Saving file at /new.ipynb
+[I 16:47:40.292 NotebookApp] Saving file at /new.ipynb
+[I 16:49:40.363 NotebookApp] Saving file at /new.ipynb
+[I 16:51:40.308 NotebookApp] Saving file at /new.ipynb
+[I 16:53:40.366 NotebookApp] Saving file at /new.ipynb
+[I 16:55:40.318 NotebookApp] Saving file at /new.ipynb
+[I 16:57:40.332 NotebookApp] Saving file at /new.ipynb
+[I 16:59:40.304 NotebookApp] Saving file at /new.ipynb
+[I 17:01:40.335 NotebookApp] Saving file at /new.ipynb
+[I 17:03:40.338 NotebookApp] Saving file at /new.ipynb
+[I 17:07:40.319 NotebookApp] Saving file at /new.ipynb
+[I 17:09:40.324 NotebookApp] Saving file at /new.ipynb
+[I 17:11:40.304 NotebookApp] Saving file at /new.ipynb
+[I 17:13:40.334 NotebookApp] Saving file at /new.ipynb
+[I 17:15:40.338 NotebookApp] Saving file at /new.ipynb
+[I 17:19:40.354 NotebookApp] Saving file at /new.ipynb
+[I 17:21:50.781 NotebookApp] Creating new notebook in 
+[I 17:21:51.591 NotebookApp] Kernel started: c39b96c4-b216-4cce-8cd9-1aca1dfc3dec
+[I 17:21:53.852 NotebookApp] Starting buffering for c39b96c4-b216-4cce-8cd9-1aca1dfc3dec:a420847cb0384746bfd4d404d5d3a14c
+[I 17:23:40.337 NotebookApp] Saving file at /new.ipynb
+[I 17:27:41.258 NotebookApp] Saving file at /new.ipynb
+[I 09:07:19.172 NotebookApp] Starting buffering for 46cf56e1-3b6a-493d-a5f5-24964fd89e20:755642ca1e9e485c8872f592e59999a6
+[C 11:27:29.585 NotebookApp] received signal 15, stopping
+[I 11:27:29.586 NotebookApp] Shutting down 2 kernels
+[I 11:27:29.687 NotebookApp] Kernel shutdown: 46cf56e1-3b6a-493d-a5f5-24964fd89e20
+[I 11:27:29.688 NotebookApp] Kernel shutdown: c39b96c4-b216-4cce-8cd9-1aca1dfc3dec

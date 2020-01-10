@@ -1,0 +1,48 @@
+
+GPU 0 used
+model/train100_0_e000.pth
+model/train100_0_e001.pth
+model/train100_0_e002.pth
+model/train100_0_e003.pth
+model/train100_0_e004.pth
+model/train100_0_e005.pth
+model/train100_0_e006.pth
+model/train100_0_e007.pth
+model/train100_0_e008.pth
+model/train100_0_e009.pth
+model/train100_0_e010.pth
+model/train100_0_e011.pth
+model/train100_0_e012.pth
+model/train100_0_e013.pth
+model/train100_0_e014.pth
+model/train100_0_e015.pth
+model/train100_0_e016.pth
+model/train100_0_e017.pth
+model/train100_0_e018.pth
+model/train100_0_e019.pth
+model/train100_0_e020.pth
+model/train100_0_e021.pth
+model/train100_0_e022.pth
+model/train100_0_e023.pth
+model/train100_0_e024.pth
+model/train100_0_e025.pth
+model/train100_0_e026.pth
+model/train100_0_e027.pth
+model/train100_0_e028.pth
+model/train100_0_e029.pth
+model/train100_0_e030.pth
+model/train100_0_e031.pth
+model/train100_0_e032.pth
+model/train100_0_e033.pth
+model/train100_0_e034.pth
+model/train100_0_e035.pth
+model/train100_0_e036.pth
+model/train100_0_e037.pth
+model/train100_0_e038.pth
+model/train100_0_e039.pth
+model/train100_0_e040.pth
+40
+Traceback (most recent call last):
+  File "plottest.py", line 75, in <module>
+    raise Exception
+Exception

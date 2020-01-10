@@ -1,0 +1,22 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Preliminaries}{}% 2
+\BOOKMARK [1][-]{section.3}{Modifications to Training}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Decreasing Number of Rollouts}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Weighting Q}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Curriculum Learning}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Experiments}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Environment}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Dataset}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Results and Discussion}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{Decreasing Number of Rollouts}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Weighting Q}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{Curriculum Learning: Varying Number of Nodes}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.4}{Curriculum Learning: Varying Graph Density}{section.5}% 14
+\BOOKMARK [1][-]{section.6}{Characterisation of GNN}{}% 15
+\BOOKMARK [1][-]{section.7}{Conclusions and Extensions}{}% 16
+\BOOKMARK [1][-]{section*.5}{Appendices}{}% 17
+\BOOKMARK [1][-]{Appendix.a.A}{Modifications to Testing}{}% 18
+\BOOKMARK [2][-]{subsection.a.A.1}{Combining two GNNs}{Appendix.a.A}% 19
+\BOOKMARK [2][-]{subsection.a.A.2}{Dynamically Testing}{Appendix.a.A}% 20
+\BOOKMARK [1][-]{Appendix.a.B}{Dynamically testing: details}{}% 21
+\BOOKMARK [1][-]{Appendix.a.C}{General details}{}% 22
