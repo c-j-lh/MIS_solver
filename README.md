@@ -1,4 +1,3 @@
-Taken from github.com/knshnb/MIS_solver, edited for testing, credit all to the aforementioned source 
 # Solving NP-Hard Problems on Graphs by Reinforcement Learning without Domain Knowledge
 Pytorch implementation of the above paper
 
